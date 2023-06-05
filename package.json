@@ -1,0 +1,21 @@
+{
+  "name": "oda-lib",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prepare": "husky install",
+    "prettier": "prettier --write .",
+    "pretty-quick": "pretty-quick --staged --pattern 'chat/**/*.{js,jsx,ts,tsx}'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@commitlint/cli": "17.6.5",
+    "@commitlint/config-conventional": "17.6.5",
+    "husky": "8.0.3",
+    "prettier": "2.8.8",
+    "pretty-quick": "3.1.3"
+  }
+}
